@@ -78,6 +78,7 @@
     "src/util/format/u_format_table.c",
     "src/util/format_srgb.c",
     "src/util/shader_stats.h",
+    "src/vulkan/runtime/astc_spv.h",
     "src/vulkan/runtime/vk_cmd_enqueue_entrypoints.c",
     "src/vulkan/runtime/vk_cmd_enqueue_entrypoints.h",
     "src/vulkan/runtime/vk_cmd_queue.c",
