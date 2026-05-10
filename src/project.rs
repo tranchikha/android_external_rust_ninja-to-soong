@@ -28,6 +28,7 @@ define_ProjectId!(
     (Mesa3DDesktopIntel, mesa3d_desktop_intel),
     (Mesa3DDesktopPanVK, mesa3d_desktop_panvk),
     (Mesa3DRpi, mesa3d_rpi),
+    (Mesa3DPanfrost, mesa3d_panfrost),
     (OpenclCts, opencl_cts),
     (OpenclHeaders, opencl_headers),
     (OpenclIcdLoader, opencl_icd_loader),

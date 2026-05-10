@@ -134,3 +134,11 @@ Generate Raspberry Pi specific libcamera Soong blueprint makefiles:
 <ninja-to-soong> $ cargo run --release -- libcamera-rpi
 <ninja-to-soong> $ cargo run --release -- libcamera-rpi --copy-to-aosp
 ```
+
+# Mesa Panfrost
+Generate Android.bp for Mesa Panfrost (tested 26.2.0)
+```
+<ninja-to-soong> $ ./scripts/mesa3d-panfrost/build_mesa_clc.sh /data1/01_Android/external/mesa3d-panfrost #Test on Ubuntu 24.04
+<ninja-to-soong> $ cargo run --release -- mesa3d-panfrost
+<ninja-to-soong> $ cargo run --release -- mesa3d-panforst --copy-to-aosp
+```
